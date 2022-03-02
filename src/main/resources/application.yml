@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: coll-notice
+server:
+  port: 9889
+
+#mybatis-plus:
+#  mapper-locations: classpath*:mybatis/mapper/*.xml,classpath*:mapper/*.xml,classpath*:mapping/*.xml,classpath*:com/aaronmegs/notice/mapper/*.xml
+#  type-aliases-package: com.aaronmegs.collnotice.entity.entity
+#  global-config:
+#    banner: false
+#    db-config:
+#      id-type: AUTO
+#      logic-delete-value: 1
+#      logic-not-delete-value: 0
+#pagehelper:
+#  helper-dialect: mysql
+#  reasonable: true
+#  support-methods-arguments:  true
+#  params: count=countSql
+
+#email:
+#  host: ${host:smtp.exmail.qq.com}
+#  username: ${username:xxx@xx.com}
+#  password: ${pasword:xxx}
+
+#swagger 配置
+swagger:
+  title: AaronMegs产品API接口文档
+  desc: AaronMegs产品API接口文档
+  version: 1.0
+  termsOfServiceUrl: javascript:void(0)
+  license: 1.0
+  licenseUrl: https://aaronmegs.com
+  basePackage: com.aaronmegs.collnotice
+  groupName: com.aaronmegs
+  contactName: aaronmegs
+  contactUrl: https://aaronmegs.com
+  contactEmail: aaronmegs@hotmail.com
